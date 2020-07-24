@@ -1,0 +1,39 @@
+﻿.slider  {
+	overflow:hidden;
+            }
+ figure  {
+		width:500%;
+		left:0%;
+		margin:0%;
+            }
+.slide img     {		
+		width:20%;
+		height:850px;
+		float:left;
+		animation:20s kite infinite;
+		position:relative;
+	    }
+@keyframes kite {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: -20%;
+    }
+
+    50% {
+        left: -40%;
+    }
+
+    75% {
+        left: -60%;
+    }
+}
+
+	                
+						
+			
+                                         
+
+	           
